@@ -6,7 +6,7 @@ from cereal.helpers import get_serial
 sg.theme('Material1')
 
 # Menubar Options
-menu = [['Configuration', ['MIDI Configuration']]]
+menu = [['Configuration', ['Coming Soon...']]]
 
 # Layout
 layout = [[sg.Menu(menu)],
