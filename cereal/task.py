@@ -54,7 +54,7 @@ class CerealTask:
         """
         Exit Handler.
 
-        Must be called when application exits or:
+        Must be called when application exits or else:
             - Serial connection may be left open/busy.
             - Listener Thread will remain active but not modifiable from GUI
             - Listener Thread will have to be manually terminated
