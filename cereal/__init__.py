@@ -6,9 +6,11 @@
  | |___|  __/ | |  __/ (_| | |
   \_____\___|_|  \___|\__,_|_|
 
-        Serial Duplicatior
+        Serial Monitor
 
-Cereal creates virtual serial devices that duplicate the behavior of an existing serial device
+Cereal is a basic Python-based serial monitor with a GUI.
+Expand it for your own projects!
+For example convert Serial to OSC or MIDI!
 
 Created by Ben Saltz
 """
@@ -26,7 +28,7 @@ task = CerealTask()
 # Register Exit Handler
 atexit.register(task.exit)
 
-clog("Initialized at 9600 baud. If for some reason you need a different baud rate, please ask author to add this functionality.")
+clog("Initialized at 9600 baud.")
 
 while True:
     # Get Window Events
