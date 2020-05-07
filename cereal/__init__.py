@@ -61,7 +61,7 @@ while True:
     if event == 'Send':
         if task.device is not None:
             clog("Sent: {}".format(values.get('in')))
-            task.device.write(bytes(values.get('in'), encoding='utf8') + b'\r\n')
+            task.device.write(bytes(values.get('in'), encoding='utf8') + b'\r')
 
     # Toggle autoscroll
     if event == 'autoscroll':
