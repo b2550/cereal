@@ -73,5 +73,4 @@ window.close()
 # Teardown
 task.exit()
 
-
-# TODO: Virtual Serial
+quit()
